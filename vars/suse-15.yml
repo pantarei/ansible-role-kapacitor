@@ -16,7 +16,7 @@
 
 _zypper_repository:
   - name: "server:database"
-    repo: "http://download.opensuse.org/repositories/server:database/openSUSE_Leap_15.2/"
+    repo: "http://download.opensuse.org/repositories/server:database/openSUSE_Leap_15.2"
     state: "present"
 
 _zypper:

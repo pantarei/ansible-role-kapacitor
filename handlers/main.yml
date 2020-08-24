@@ -14,9 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- name: kapacitor | systemctl restart kapacitor
+- name: kapacitor | systemctl restart kapacitor.service
   service:
-    name: "kapacitor"
+    name: "kapacitor.service"
     state: "restarted"
     enabled: true
   loop: "{{ ansible_play_hosts }}"

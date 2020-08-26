@@ -49,5 +49,5 @@
   register: result
   until: result is succeeded
   notify:
-    - kapacitor | systemctl restart kapacitor
+    - kapacitor | systemctl restart kapacitor.service
   tags: kapacitor

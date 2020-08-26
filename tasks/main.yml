@@ -48,9 +48,9 @@
   ignore_errors: true
   tags: kapacitor
 
-- name: systemctl start kapacitor
+- name: systemctl start kapacitor.service
   service:
-    name: "kapacitor"
+    name: "kapacitor.service"
     state: "started"
     enabled: true
   changed_when: false

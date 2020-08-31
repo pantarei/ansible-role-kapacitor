@@ -1,7 +1,7 @@
 # Ansible Role for Kapacitor
 
 [![Travis](https://img.shields.io/travis/com/alvistack/ansible-role-kapacitor.svg)](https://travis-ci.com/alvistack/ansible-role-kapacitor)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-kapacitor.svg)](https://github.com/alvistack/ansible-role-kapacitor)
+[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-kapacitor.svg)](https://github.com/alvistack/ansible-role-kapacitor/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-kapacitor.svg)](https://github.com/alvistack/ansible-role-kapacitor/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.kapacitor-blue.svg)](https://galaxy.ansible.com/alvistack/kapacitor)
 

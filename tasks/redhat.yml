@@ -14,9 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- name: yum install yum-utils
+- name: yum install gnupg2
   yum:
-    name: "yum-utils"
+    name: "gnupg2"
     state: "present"
   register: result
   until: result is succeeded

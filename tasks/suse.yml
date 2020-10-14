@@ -22,7 +22,6 @@
     state: "present"
   register: result
   until: result is succeeded
-  tags: kapacitor
 
 - name: zypper addrepo
   vars:
@@ -37,7 +36,6 @@
   loop: "{{ _zypper_repository }}"
   register: result
   until: result is succeeded
-  tags: kapacitor
 
 - name: zypper install
   vars:
@@ -51,4 +49,3 @@
   until: result is succeeded
   notify:
     - kapacitor | systemctl restart kapacitor.service
-  tags: kapacitor

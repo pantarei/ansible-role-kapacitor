@@ -20,7 +20,7 @@ _apt_key:
     state: "present"
 
 _apt_repository:
-  - repo: "deb http://repos.influxdata.com/ubuntu/ bionic stable"
+  - repo: "deb http://repos.influxdata.com/ubuntu bionic stable"
     state: "present"
 
 _apt:

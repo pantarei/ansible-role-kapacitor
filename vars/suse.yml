@@ -14,10 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_zypper_repository:
-  - name: "server:database"
-    repo: "http://download.opensuse.org/repositories/server:/database/openSUSE_Tumbleweed"
-    state: "present"
+_zypper_repository: []
 
 _zypper:
   - { state: "latest", name: "kapacitor" }
